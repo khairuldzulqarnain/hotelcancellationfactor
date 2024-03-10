@@ -1,13 +1,27 @@
 # hotelcancellationfactor
 
-Suggestons :
-1. Cancellation rates rise as the price does. In order to prevent cancellations of reservations,
-hotels could work on their pricing strategies and try to lower the rates for specific hotels
-based on locations. They can also provide some discounts to the consumers.
-2. As the ratio of the cancellation and not cancellation of the resort hotel is higher in the
-resort hotel than the city hotels. So the hotels should provide a reasonable discount on the
-room prices on weekends or on holidays.
-3. In the month of January, hotels can start campaigns or marketing with a reasonable
-amount to increase their revenue as the cancellation is the highest in this month.
-4. They can also increase the quality of their hotels and their services mainly in Portugal to
-reduce the cancellation rate.
+Context
+The online hotel reservation channels have dramatically changed booking possibilities and customers’ behavior. A significant number of hotel reservations are called-off due to cancellations or no-shows. The typical reasons for cancellations include change of plans, scheduling conflicts, etc. This is often made easier by the option to do so free of charge or preferably at a low cost which is beneficial to hotel guests but it is a less desirable and possibly revenue-diminishing factor for hotels to deal with.
+
+Can you predict if the customer is going to honor the reservation or cancel it ?
+
+Quick Problem Overview
+Who is our stakeholder? - Booking Manager
+What is the core business problem we are solving? - Revenue Management, cost implications due to cancellations.
+Convert Business to DS Problem: Determine if a booking will be canceled or not. And what leads to cancellations.
+Business Metric: How much Overbookings can we take ( based on reliable cancelation predictions from the model)
+Data Science Metric: Recall/ Precision/ F1 Score
+Feature Selection: Done
+Feature Engineering: Done
+EDA Questions: Done
+
+Problem with Cancellations
+Customer accustomed to free cancellation policies
+Operational Problems
+Non accurate forecast
+Non-optimized Occupancy
+Poor Management
+Revenue Loss
+In order to fight the negative impact of cancellations, hotels need to be able to identify which bookings are likely to be cancelled.
+
+Here the solution will allow hotels/resorts to predict if a new booking will be cancelled or not, manage their business accordingly, and increase their revenue.
